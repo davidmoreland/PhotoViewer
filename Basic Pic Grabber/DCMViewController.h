@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface DCMViewController : UIViewController
+@property(nonatomic, strong) IBOutlet UIImageView *currentImage;
 
 @end

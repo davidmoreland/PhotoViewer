@@ -12,7 +12,7 @@
 		550B0BF718B445200053A0F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 550B0BF618B445200053A0F7 /* UIKit.framework */; };
 		550B0BFD18B445200053A0F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 550B0BFB18B445200053A0F7 /* InfoPlist.strings */; };
 		550B0BFF18B445200053A0F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 550B0BFE18B445200053A0F7 /* main.m */; };
-		550B0C0318B445200053A0F7 /* DCMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 550B0C0218B445200053A0F7 /* DCMAppDelegate.m */; };
+		550B0C0318B445200053A0F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 550B0C0218B445200053A0F7 /* AppDelegate.m */; };
 		550B0C0618B445200053A0F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550B0C0418B445200053A0F7 /* Main.storyboard */; };
 		550B0C0918B445200053A0F7 /* DCMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 550B0C0818B445200053A0F7 /* DCMViewController.m */; };
 		550B0C0B18B445200053A0F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550B0C0A18B445200053A0F7 /* Images.xcassets */; };
@@ -21,6 +21,9 @@
 		550B0C1418B445210053A0F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 550B0BF618B445200053A0F7 /* UIKit.framework */; };
 		550B0C1C18B445210053A0F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 550B0C1A18B445210053A0F7 /* InfoPlist.strings */; };
 		550B0C1E18B445210053A0F7 /* Basic_Pic_GrabberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 550B0C1D18B445210053A0F7 /* Basic_Pic_GrabberTests.m */; };
+		552A0EFF18B51DCE00B36B0E /* DCMWebTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 552A0EFE18B51DCE00B36B0E /* DCMWebTransfer.m */; };
+		552A0F0218B5A6FE00B36B0E /* DCMPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 552A0F0118B5A6FE00B36B0E /* DCMPhotoManager.m */; };
+		552A0F0818B6543300B36B0E /* DCMPhotoViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 552A0F0718B6543300B36B0E /* DCMPhotoViewerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +45,8 @@
 		550B0BFC18B445200053A0F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		550B0BFE18B445200053A0F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		550B0C0018B445200053A0F7 /* Basic Pic Grabber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Basic Pic Grabber-Prefix.pch"; sourceTree = "<group>"; };
-		550B0C0118B445200053A0F7 /* DCMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCMAppDelegate.h; sourceTree = "<group>"; };
-		550B0C0218B445200053A0F7 /* DCMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCMAppDelegate.m; sourceTree = "<group>"; };
+		550B0C0118B445200053A0F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		550B0C0218B445200053A0F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		550B0C0518B445200053A0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		550B0C0718B445200053A0F7 /* DCMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCMViewController.h; sourceTree = "<group>"; };
 		550B0C0818B445200053A0F7 /* DCMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCMViewController.m; sourceTree = "<group>"; };
@@ -53,6 +56,13 @@
 		550B0C1918B445210053A0F7 /* Basic Pic GrabberTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Basic Pic GrabberTests-Info.plist"; sourceTree = "<group>"; };
 		550B0C1B18B445210053A0F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		550B0C1D18B445210053A0F7 /* Basic_Pic_GrabberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Basic_Pic_GrabberTests.m; sourceTree = "<group>"; };
+		550B0C2718B451D30053A0F7 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		552A0EFD18B51DCE00B36B0E /* DCMWebTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMWebTransfer.h; sourceTree = "<group>"; };
+		552A0EFE18B51DCE00B36B0E /* DCMWebTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMWebTransfer.m; sourceTree = "<group>"; };
+		552A0F0018B5A6FE00B36B0E /* DCMPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMPhotoManager.h; sourceTree = "<group>"; };
+		552A0F0118B5A6FE00B36B0E /* DCMPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMPhotoManager.m; sourceTree = "<group>"; };
+		552A0F0618B6543300B36B0E /* DCMPhotoViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMPhotoViewerViewController.h; sourceTree = "<group>"; };
+		552A0F0718B6543300B36B0E /* DCMPhotoViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMPhotoViewerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,10 @@
 		550B0BE618B445200053A0F7 = {
 			isa = PBXGroup;
 			children = (
+				552A0F0618B6543300B36B0E /* DCMPhotoViewerViewController.h */,
+				552A0F0718B6543300B36B0E /* DCMPhotoViewerViewController.m */,
+				552A0F0018B5A6FE00B36B0E /* DCMPhotoManager.h */,
+				552A0F0118B5A6FE00B36B0E /* DCMPhotoManager.m */,
 				550B0BF818B445200053A0F7 /* Basic Pic Grabber */,
 				550B0C1718B445210053A0F7 /* Basic Pic GrabberTests */,
 				550B0BF118B445200053A0F7 /* Frameworks */,
@@ -112,13 +126,16 @@
 		550B0BF818B445200053A0F7 /* Basic Pic Grabber */ = {
 			isa = PBXGroup;
 			children = (
-				550B0C0118B445200053A0F7 /* DCMAppDelegate.h */,
-				550B0C0218B445200053A0F7 /* DCMAppDelegate.m */,
+				550B0C0118B445200053A0F7 /* AppDelegate.h */,
+				550B0C0218B445200053A0F7 /* AppDelegate.m */,
+				552A0EFD18B51DCE00B36B0E /* DCMWebTransfer.h */,
+				552A0EFE18B51DCE00B36B0E /* DCMWebTransfer.m */,
 				550B0C0418B445200053A0F7 /* Main.storyboard */,
 				550B0C0718B445200053A0F7 /* DCMViewController.h */,
 				550B0C0818B445200053A0F7 /* DCMViewController.m */,
 				550B0C0A18B445200053A0F7 /* Images.xcassets */,
 				550B0BF918B445200053A0F7 /* Supporting Files */,
+				550B0C2718B451D30053A0F7 /* Constants.h */,
 			);
 			path = "Basic Pic Grabber";
 			sourceTree = "<group>";
@@ -250,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				552A0F0818B6543300B36B0E /* DCMPhotoViewerViewController.m in Sources */,
 				550B0C0918B445200053A0F7 /* DCMViewController.m in Sources */,
 				550B0BFF18B445200053A0F7 /* main.m in Sources */,
-				550B0C0318B445200053A0F7 /* DCMAppDelegate.m in Sources */,
+				552A0EFF18B51DCE00B36B0E /* DCMWebTransfer.m in Sources */,
+				550B0C0318B445200053A0F7 /* AppDelegate.m in Sources */,
+				552A0F0218B5A6FE00B36B0E /* DCMPhotoManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +481,7 @@
 				550B0C2318B445210053A0F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		550B0C2418B445210053A0F7 /* Build configuration list for PBXNativeTarget "Basic Pic GrabberTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +490,7 @@
 				550B0C2618B445210053A0F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
